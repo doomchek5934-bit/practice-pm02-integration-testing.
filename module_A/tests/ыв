@@ -1,0 +1,6 @@
+# Создаём ветку develop от main
+git checkout -b develop
+git push -u origin develop
+
+# Создаём feature-ветку от develop
+git checkout -b feature/add-tests develop
